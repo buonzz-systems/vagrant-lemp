@@ -2,7 +2,7 @@
 
 apt-get update
 
-apt-get upgrade -y
+sudo apt-get install -y php5-mcrypt
+sudo php5enmod mcrypt
 
-apt-get install nginx php5-fpm php5-cli php5-mcrypt git -y
-apt-get install mysql-server -y
+apt-get install -y php5-cli git
