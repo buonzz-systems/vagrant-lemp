@@ -16,6 +16,9 @@ sudo apt-get update
 sudo apt-get install -y mongodb-org
 sudo apt-get install -y php5-mongo
 
+# install supervisord & beanstalkd
+apt-get install -y supervisor
+
 # Install Composer
 curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
