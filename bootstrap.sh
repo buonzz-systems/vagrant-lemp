@@ -18,6 +18,7 @@ sudo apt-get install -y php5-mongo
 
 # install supervisord & beanstalkd
 apt-get install -y supervisor
+aptitude install -y beanstalkd
 
 # Install Composer
 curl -sS https://getcomposer.org/installer | php
