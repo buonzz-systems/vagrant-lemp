@@ -8,6 +8,7 @@ sudo php5enmod mcrypt
 
 # install console and git
 apt-get install -y php5-cli git curl
+sudo apt-get install php5-curl
 
 # install mongodb
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
